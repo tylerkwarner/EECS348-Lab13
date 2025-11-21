@@ -1,0 +1,4 @@
+1. There is a fault in the code, the indexing in the loop is wrong because it begins at 1 (int i =1;) 
+2. To not have the fault happen, the line cannot run, which would mean the loop can never execute. 
+    Since it is only possible when attendance_records.size() <= 1, but the problem requries 10 attendance values, the loop will always run. 
+3. To execute the fault but avoid an error, we need to ommit 0 but not change the internal state.
